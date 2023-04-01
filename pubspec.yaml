@@ -76,6 +76,12 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/animations/empty.json
+    - assets/animations/loading.json
+    - assets/animations/data_not_found.json
+    - assets/animations/error.json
+    - assets/animations/small_error.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

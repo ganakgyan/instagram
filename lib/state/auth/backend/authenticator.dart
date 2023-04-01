@@ -16,7 +16,6 @@ class Authenticator {
 
   String? get email => FirebaseAuth.instance.currentUser?.email;
 
-
   Future<void> logOut() async {
     await FirebaseAuth.instance.signOut();
     await GoogleSignIn().signOut();
@@ -76,12 +75,12 @@ class Authenticator {
       idToken: googleAuth.idToken,
       accessToken: googleAuth.accessToken,
     );
-    try{
+    try {
       await FirebaseAuth.instance.signInWithCredential(
         oAuthCredentials,
       );
       return AuthResult.success;
-    }catch (e) {
+    } catch (e) {
       return AuthResult.failure;
     }
   }

@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 class Constants {
   static const accountExistsWithDifferentCredential =
       'account-exists-with-different-credential';
-  static const googleCom='google.com';
+  static const googleCom = 'google.com';
   static const eailScope = 'email';
   const Constants._();
 }

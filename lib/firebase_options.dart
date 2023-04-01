@@ -66,7 +66,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '394576877627',
     projectId: 'instagram-clone-31031',
     storageBucket: 'instagram-clone-31031.appspot.com',
-    iosClientId: '394576877627-ktvt141vs5epdan0pg1ajmd53gb2cabp.apps.googleusercontent.com',
+    iosClientId:
+        '394576877627-ktvt141vs5epdan0pg1ajmd53gb2cabp.apps.googleusercontent.com',
     iosBundleId: 'com.example.instagramClone',
   );
 
@@ -76,7 +77,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '394576877627',
     projectId: 'instagram-clone-31031',
     storageBucket: 'instagram-clone-31031.appspot.com',
-    iosClientId: '394576877627-ktvt141vs5epdan0pg1ajmd53gb2cabp.apps.googleusercontent.com',
+    iosClientId:
+        '394576877627-ktvt141vs5epdan0pg1ajmd53gb2cabp.apps.googleusercontent.com',
     iosBundleId: 'com.example.instagramClone',
   );
 }
